@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #d7d1df;
+    display: static;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header-class{ 
+    /*text-transform:  uppercase; capitalize ou lowercase*/
+    background-image: url("https://img.freepik.com/fotos-gratis/vista-de-uma-velha-arvore-em-um-lago-com-montanhas-cobertas-de-neve-em-um-dia-nublado_181624-28954.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    box-shadow: 0px 20px 40px -20px rgb(0,0,0,0.35);
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+.titulo-curriculo{
+
+}
+
+.info-contato{
+
+}
+
+.menu{
+
+}
+
+.menu_li_a{
+
+}
+
+.clique_link{
+
+}
+
+/*
+
+Flex box = Muito utilizado para organizar os containers, distancimento e etc
+
+O que é o inblock e inline?
+   
+
+*/
