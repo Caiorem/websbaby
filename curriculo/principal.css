@@ -1,57 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body,html{
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    background-color: #d7d1df;
-    display: static;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+body, html {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 20px;
 }
 
-.header-class{ 
-    /*text-transform:  uppercase; capitalize ou lowercase*/
-    background-image: url("https://img.freepik.com/fotos-gratis/vista-de-uma-velha-arvore-em-um-lago-com-montanhas-cobertas-de-neve-em-um-dia-nublado_181624-28954.jpg?semt=ais_hybrid&w=740");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px;
-    box-shadow: 0px 20px 40px -20px rgb(0,0,0,0.35);
-    position: relative;
-    color: white;
-    padding: 20px;
-}
-.titulo-curriculo{
-
+/* Estilo da seção de cabeçalho */
+.header-class {
+  background-image: url("https://img.freepik.com/fotos-gratis/vista-de-uma-velha-arvore-em-um-lago-com-montanhas-cobertas-de-neve-em-um-dia-nublado_181624-28954.jpg?semt=ais_hybrid&w=740");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px 40px 20px;
+  box-shadow: 0px 20px 40px -20px rgba(0, 0, 0, 0.35);
 }
 
-.info-contato{
-
+.header-class h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-.menu{
-
+.header-class p {
+  font-size: 1.2rem;
 }
 
-.menu_li_a{
-
+/* Seções gerais */
+.section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: white;
+  border-left: 5px solid #6c63ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-.clique_link{
-
+/* Títulos */
+h2, h3 {
+  color: #2c2c54;
+  margin-bottom: 10px;
 }
 
-/*
+/* Parágrafos */
+p {
+  margin-bottom: 10px;
+}
 
-Flex box = Muito utilizado para organizar os containers, distancimento e etc
+/* Listas */
+ul {
+  list-style-type: disc;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
 
-O que é o inblock e inline?
-   
+/* Links */
+a {
+  color: #6c63ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 
-*/
+a:hover {
+  color: #3f3d94;
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer, em {
+  display: block;
+  text-align: center;
+  margin: 40px 0;
+  font-style: italic;
+  color: #777;
+}
+
+/* Contato */
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Linha divisória */
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 30px 0;
+}
